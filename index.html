@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,9 +11,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
     <script>
-      window.addEventListener("DOMContentLoaded", () => {
+      window.addEventListener('DOMContentLoaded', () => {
         VANTA.BIRDS({
-          el: "#vanta",
+          el: '#vanta',
           mouseControls: true,
           touchControls: true,
           gyroControls: true,
@@ -27,22 +27,22 @@
           separation: 100.0,
           alignment: 77.0,
           cohesion: 5.0,
-          quantity: 1.0,
-        });
+          quantity: 1.0
+        })
 
         setTimeout(() => {
-          const main = document.querySelector("main");
-          main.style.opacity = 1;
-          main.style.filter = "blur(0px)";
-        }, 1000);
-      });
+          const main = document.querySelector('main')
+          main.style.opacity = 1
+          main.style.filter = 'blur(0px)'
+        }, 1000)
+      })
     </script>
   </head>
   <body>
     <div id="vanta"></div>
     <main>
       <header>
-        <img src="./images/selfie.png" />
+        <img src="./images/selfie.jpg" />
         <h1>@CordeliasGuy</h1>
       </header>
       <ul>
@@ -55,7 +55,7 @@
         <li>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/daniel-alejandro-caballero-carrazana-603a3b1b8/"
+            href="https://www.linkedin.com/in/daniel-a-caballero-603a3b1b8/"
           >
             <img src="./images/linkedin.svg" alt="LinkedIn" width="20" />
             LinkedIn
